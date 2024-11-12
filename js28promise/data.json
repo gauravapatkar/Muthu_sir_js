@@ -1,0 +1,32 @@
+[
+  {
+    "name": "levi",
+    "id": 101,
+    "ismarried": false
+  },
+  {
+    "name": "levi",
+    "id": 101,
+    "ismarried": false
+  },
+  {
+    "name": "naruto",
+    "id": 102,
+    "ismarried": true
+  },
+  {
+    "name": "itachi",
+    "id": 104,
+    "ismarried": false
+  },
+  {
+    "name": "minato",
+    "id": 105,
+    "ismarried": true
+  },
+  {
+    "name": "hokage",
+    "id": 106,
+    "ismarried": true
+  }
+]

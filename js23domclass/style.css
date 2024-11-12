@@ -1,0 +1,16 @@
+.fa-solid {
+  position: absolute;
+  top: 11%;
+  left: 15%;
+}
+
+input {
+  padding-right: 2rem;
+}
+div {
+  position: relative;
+}
+
+.hide {
+  display: none;
+}

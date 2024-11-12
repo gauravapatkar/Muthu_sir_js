@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>sign up</h1>
+    <form class="form-control">
+      <input
+        type="text"
+        name="username"
+        id="percentage"
+        placeholder="enter percentage"
+      />
+      <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="enter password"
+      />
+      <br />
+      <input type="email" name="email" id="email" placeholder="enter email" />
+      <br />
+      <label for="DOB">enter DOB</label>
+      <input type="date" name="DOB" id="DOB" /><br />
+      <span>select gender</span>
+      <input type="radio" name="gender" id="male" value="male" />male
+      <input type="radio" name="gender" id="female" value="female" />female
+      <input type="radio" name="gender" id="other" value="other" />other
+      <br />
+      <span>select courses</span>
+      <input type="checkbox" name="courses" id="java" value="java" />java
+      <input type="checkbox" name="courses" id="js" value="js" />js
+      <input type="checkbox" name="courses" id="node" value="node" />node
+      <input
+        type="checkbox"
+        name="courses"
+        id="mongodb"
+        value="mongodb"
+      />mongodb <input type="checkbox" name="courses" id="SQL" value="SQL" />SQL
+      <br />
+
+      <label for="percentage"> select percentage </label>
+      <input
+        type="range"
+        name="percentage"
+        id="percentage"
+        min="35"
+        max="100"
+      />
+      <span class="display_perc">50</span><br />
+
+      <select name="country" id="country">
+        <option value="" disabled selected>select country</option>
+        <option value="india">india</option>
+        <option value="russia">russia</option>
+        <option value="usa">usa</option>
+        <option value="uk">uk</option>
+      </select>
+      <br />
+      <button type="submit">sign up</button>
+    </form>
+    <script src="js26dom_from.js"></script>
+  </body>
+</html>
